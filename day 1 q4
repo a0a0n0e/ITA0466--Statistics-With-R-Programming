@@ -1,0 +1,5 @@
+# Create vector with 10 random integer values
+random_vector <- sample(-50:50, 10, replace = TRUE)
+
+# Print vector
+print(random_vector)
