@@ -1,0 +1,20 @@
+# Function to take input from user for name and age
+getUserInput <- function() {
+  cat("Enter your name: ")
+  name <- readline()
+  
+  cat("Enter your age: ")
+  age <- readline()
+  
+  return(list(name = name, age = age))
+}
+
+# Main program
+user <- getUserInput()
+
+# Displaying input values
+cat("\nName: ", user$name, "\n")
+cat("Age: ", user$age, "\n")
+
+# Print version of R installation
+cat("\nR version: ", R.version.string, "\n")
