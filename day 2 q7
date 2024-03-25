@@ -1,0 +1,10 @@
+# Create array
+values <- 1:12
+dimensions <- c(3, 2, 2)
+array1 <- array(values, dim = dimensions, dimnames = list(c("Dim1", "Dim2", "Dim3"),
+                                                          c("Col1", "Col2"),
+                                                          c("Row1", "Row2")))
+
+# Print array
+print("Array with names for each dimension:")
+print(array1)
