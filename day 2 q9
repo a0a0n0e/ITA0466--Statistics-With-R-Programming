@@ -1,0 +1,7 @@
+# Create list
+list_elements <- list(c(1, 2, 3), matrix(1:9, nrow = 3),
+                      function(x) x^2)
+
+# Print content of the list
+print("List of elements using vectors, matrices, and a function:")
+print(list_elements)
