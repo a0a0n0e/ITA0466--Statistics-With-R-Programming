@@ -1,0 +1,8 @@
+# Draw empty plot
+plot.new()
+title("Empty Plot")
+
+# Draw empty plot with specified axes limits
+plot.new()
+plot.window(xlim = c(0, 10), ylim = c(0, 20))
+title("Empty Plot with Axes Limits")
