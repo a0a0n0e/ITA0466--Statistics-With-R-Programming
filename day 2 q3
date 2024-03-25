@@ -1,0 +1,9 @@
+# Generate random numbers
+set.seed(123) # for reproducibility
+random_numbers <- rnorm(100)
+
+# Count occurrences of each value
+count <- table(random_numbers)
+
+# Print occurrences
+print(count)
