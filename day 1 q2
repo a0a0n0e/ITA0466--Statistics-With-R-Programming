@@ -1,0 +1,5 @@
+# Get details of objects in memory
+objects <- ls()
+for (obj in objects) {
+  print(obj)
+}
