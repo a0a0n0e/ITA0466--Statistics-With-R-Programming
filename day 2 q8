@@ -1,0 +1,8 @@
+# Create array
+vector1 <- c(1, 2, 3)
+vector2 <- c(4, 5, 6)
+array2 <- array(c(vector1, vector2), dim = c(3, 3, 2))
+
+# Print array
+print("Array with three columns, three rows, and two 'tables':")
+print(array2)
